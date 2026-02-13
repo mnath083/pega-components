@@ -23,6 +23,7 @@ export const Primary: Story = {
     variant: configProps.variant,
     icon: configProps.icon,
     iconName: configProps.iconName as SlDxExtensionsNavigateToStepProps['iconName'],
+    // Storybook does not run inside Pega, so we mock the runtime contract.
     getPConnect: () => {
       return {
         getActionsApi: () => {

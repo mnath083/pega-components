@@ -16,6 +16,7 @@ import type { PConnFieldProps } from './PConnProps';
 import './create-nonce';
 import StyledSlDxExtensionsNavigateToStepWrapper from './styles';
 
+// Register only the icons this component can render.
 registerIcon(pencil, arrowBendLeft, arrowBendRight, check, undo, plus);
 
 export interface SlDxExtensionsNavigateToStepProps extends PConnFieldProps {
@@ -46,12 +47,14 @@ function SlDxExtensionsNavigateToStep({
   disabled = false,
   testId = 'NavigateToStep'
 }: Readonly<SlDxExtensionsNavigateToStepProps>) {
-
+  // `getPConnect` is provided by Pega runtime and exposes available actions.
   const actions = getPConnect().getActionsApi();
 
   const handleClick = () => {
+    // Navigate to the step configured by the property panel (`stepID`).
     actions.navigateToStep(
       stepID,
+      // Context name identifies which container/work item the action applies to.
       getPConnect().getContextName()
     );
   };
@@ -68,7 +71,9 @@ function SlDxExtensionsNavigateToStep({
         icon={icon}
         onClick={handleClick}
       >
+        {/* Render an icon when one is selected in config. */}
         {iconName && <Icon name={iconName} />}
+        {/* If icon-only mode is enabled, hide text and show just the icon. */}
         {!icon ? text : undefined}
       </Button>
     </StyledSlDxExtensionsNavigateToStepWrapper>
