@@ -1,0 +1,29 @@
+import{j as e}from"./index-Df7fr5hj.js";import{p as S}from"./pencil.icon-CpGCwzZn.js";import{w as I,c as h}from"./check.icon-BS-u92M9.js";import{q as b,A as w,B as N,I as P,r as j}from"./Button-O6gWt_GM.js";import"./index-D4H_InIO.js";import"./index-Dd8bRu6S.js";import"./iframe-DQs5llOP.js";const C="budicon",D="plus",$=()=>e.jsx("path",{d:"m13.43 2.5-.001 9.069H22.5v1.861h-9.071v9.07h-1.906l-.001-9.07H2.5v-1.86l9.022-.001V2.5h1.907Z"}),E="0 0 25 25",y=Object.freeze(Object.defineProperty({__proto__:null,Component:$,name:D,set:C,viewBox:E},Symbol.toStringTag,{value:"Module"})),T="budicon",k="arrow-bend-left",A=()=>e.jsx("path",{d:"M14.74 22.595H7.411c-.335 0-.527-.144-.527-.48 0-.335.192-.478.527-.478h7.327c1.868 0 3.496-.67 4.885-2.06 1.34-1.34 2.012-2.97 2.012-4.837 0-1.868-.67-3.496-2.012-4.838-1.389-1.34-3.017-2.011-4.885-2.011H3.676l4.07 4.07a.434.434 0 0 1 .145.336c0 .335-.192.479-.527.479a.434.434 0 0 1-.335-.144L2.144 7.747A.434.434 0 0 1 2 7.412a.54.54 0 0 1 .144-.383l4.885-4.885A.542.542 0 0 1 7.412 2c.335 0 .479.144.479.479 0 .191-.048.287-.144.335L3.676 6.885h11.063c2.156.048 4.023.814 5.556 2.3 1.532 1.532 2.299 3.4 2.299 5.555s-.767 4.022-2.3 5.555c-1.532 1.533-3.4 2.3-5.555 2.3Z"}),B="0 0 25 25",O=Object.freeze(Object.defineProperty({__proto__:null,Component:A,name:k,set:T,viewBox:B},Symbol.toStringTag,{value:"Module"})),q="budicon",V="arrow-bend-right",H=()=>e.jsx("path",{d:"M4.3 20.295C2.765 18.762 2 16.895 2 14.74c0-2.156.766-4.023 2.3-5.556C5.831 7.7 7.7 6.934 9.854 6.885h11.063l-4.071-4.07c-.096-.049-.144-.145-.144-.336 0-.335.144-.479.479-.479a.54.54 0 0 1 .383.144l4.885 4.885a.543.543 0 0 1 .144.383.435.435 0 0 1-.144.335l-4.885 4.885a.434.434 0 0 1-.335.144c-.335 0-.527-.144-.527-.48 0-.143.048-.238.144-.334l4.071-4.071H9.855c-1.868 0-3.496.67-4.838 2.011-1.389 1.341-2.06 2.97-2.06 4.838 0 1.868.671 3.496 2.06 4.837 1.34 1.39 2.97 2.06 4.838 2.06h7.327c.335 0 .527.143.527.479 0 .335-.192.479-.527.479H9.855c-2.156 0-4.023-.767-5.556-2.3Z"}),R="0 0 25 25",M=Object.freeze(Object.defineProperty({__proto__:null,Component:H,name:V,set:q,viewBox:R},Symbol.toStringTag,{value:"Module"})),z="budicon",L="undo",Z=()=>e.jsx("path",{d:"M20.295 4.3c1.532 1.532 2.299 3.4 2.299 5.555s-.767 4.022-2.3 5.508c-1.532 1.532-3.4 2.299-5.555 2.346H3.676l4.07 4.071c.097.048.145.144.145.336 0 .335-.144.479-.48.479a.54.54 0 0 1-.382-.144l-4.885-4.885A.542.542 0 0 1 2 17.183c0-.144.048-.24.144-.335l4.885-4.885a.434.434 0 0 1 .335-.144c.335 0 .527.143.527.479a.435.435 0 0 1-.144.335l-4.071 4.07h11.063c1.868 0 3.496-.67 4.885-2.01 1.34-1.341 2.012-2.97 2.012-4.838 0-1.868-.67-3.496-2.012-4.885-1.389-1.341-3.017-2.012-4.885-2.012H7.412c-.335 0-.527-.144-.527-.48 0-.334.192-.478.527-.478h7.327c2.156 0 4.023.766 5.556 2.3Z"}),F="0 0 25 25",W=Object.freeze(Object.defineProperty({__proto__:null,Component:Z,name:L,set:z,viewBox:F},Symbol.toStringTag,{value:"Module"}));window!=null&&window.__webpack_nonce__&&(__webpack_nonce__=window.__webpack_nonce__);const G=b.div(()=>w`
+    display: block;
+    margin: 0.25rem 0;
+  `);j(S,O,M,h,W,y);function u({getPConnect:o,text:n="Edit",stepID:r,tooltip:d="Navigate to step",variant:m="link",compact:f=!1,icon:s=!1,iconName:i="pencil",disabled:g=!1,testId:v="NavigateToStep"}){const x=o().getActionsApi(),_=()=>{x.navigateToStep(r,o().getContextName())};return e.jsx(G,{children:e.jsxs(N,{"data-testid":v,name:r,label:d||n,compact:f,disabled:g,variant:m,icon:s,onClick:_,children:[i&&e.jsx(P,{name:i}),s?void 0:n]})})}const J=I(u);u.__docgenInfo={description:"",methods:[],displayName:"SlDxExtensionsNavigateToStep",props:{text:{defaultValue:{value:"'Edit'",computed:!1},required:!1},tooltip:{defaultValue:{value:"'Navigate to step'",computed:!1},required:!1},variant:{defaultValue:{value:"'link'",computed:!1},required:!1},compact:{defaultValue:{value:"false",computed:!1},required:!1},icon:{defaultValue:{value:"false",computed:!1},required:!1},iconName:{defaultValue:{value:"'pencil'",computed:!1},required:!1},disabled:{defaultValue:{value:"false",computed:!1},required:!1},testId:{defaultValue:{value:"'NavigateToStep'",computed:!1},required:!1}}};const t={tooltip:"Change",stepId:"AssignmentSF4",text:"Change",variant:"link",icon:!1,iconName:"plus"},oe={title:"SL/SlDxExtensionsNavigateToStep",component:J,parameters:{controls:{expanded:!0}}},a={args:{text:t.text,tooltip:t.tooltip,stepID:t.stepId,variant:t.variant,icon:t.icon,iconName:t.iconName,getPConnect:()=>({getActionsApi:()=>({navigateToStep:(o,n)=>o==="ERROR"?Promise.reject(new Error("Error navigating to step")):Promise.resolve(console.log(`Navigating to stepID: ${o} with containerItemID: ${n}`))}),getContextName:()=>"containerItemID"})}};var c,l,p;a.parameters={...a.parameters,docs:{...(c=a.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    text: configProps.text,
+    tooltip: configProps.tooltip,
+    stepID: configProps.stepId,
+    variant: configProps.variant,
+    icon: configProps.icon,
+    iconName: configProps.iconName as SlDxExtensionsNavigateToStepProps['iconName'],
+    // Storybook does not run inside Pega, so we mock the runtime contract.
+    getPConnect: () => {
+      return {
+        getActionsApi: () => {
+          return {
+            navigateToStep: (stepID, containerItemID) => {
+              if (stepID === 'ERROR') {
+                return Promise.reject(new Error('Error navigating to step'));
+              }
+              return Promise.resolve(console.log(\`Navigating to stepID: \${stepID} with containerItemID: \${containerItemID}\`));
+            }
+          };
+        },
+        getContextName: () => 'containerItemID'
+      } as typeof PConnect;
+    }
+  }
+}`,...(p=(l=a.parameters)==null?void 0:l.docs)==null?void 0:p.source}}};const ne=["Primary"];export{a as Primary,ne as __namedExportsOrder,oe as default};
